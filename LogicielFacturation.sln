@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicielFacturation", "LogicielFacturation\LogicielFacturation.csproj", "{CE7F6AB8-C115-4DE8-9E21-0425F483F9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7F6AB8-C115-4DE8-9E21-0425F483F9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7F6AB8-C115-4DE8-9E21-0425F483F9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7F6AB8-C115-4DE8-9E21-0425F483F9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7F6AB8-C115-4DE8-9E21-0425F483F9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46757E13-C089-43C7-ADEE-8B62598A1F9B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿<Window x:Class="LogicielFacturation.modifClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogicielFacturation"
+        mc:Ignorable="d"
+        Title="modifClient" Height="390" Width="300">
+    <Grid Margin="0,0,483,0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="300" Margin="0,-30,-300,-1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="NOM" HorizontalAlignment="Left" Margin="0,70,0,0" VerticalAlignment="Top" Width="290"/>
+            <TextBox Name="tb_nom" HorizontalAlignment="Left" Height="23" Margin="0,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+            <Label Content="PRENOM" HorizontalAlignment="Left" Margin="0,124,0,0" VerticalAlignment="Top" Width="290"/>
+            <TextBox Name="tb_prenom" HorizontalAlignment="Left" Height="23" Margin="0,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+            <Label Content="TELEPHONE" HorizontalAlignment="Left" Margin="0,178,0,0" VerticalAlignment="Top" Width="290"/>
+            <TextBox Name="tb_telephone" HorizontalAlignment="Left" Height="23" Margin="0,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+            <Label Content="ADRESSE" HorizontalAlignment="Left" Margin="0,232,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.105,-0.077" Width="290"/>
+            <TextBox Name="tb_adresse" HorizontalAlignment="Left" Height="23" Margin="0,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+            <Button Name="bt_valider" Content="VALIDER MODIFICATION" HorizontalAlignment="Left" Margin="0,322,0,0" VerticalAlignment="Top" Width="290" Click="Button_Click_1"/>
+            <TextBox Name="tb_id" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="0,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290"/>
+
+
+        </Grid>
+    </Grid>
+</Window>
